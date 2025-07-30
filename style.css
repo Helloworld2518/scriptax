@@ -1,0 +1,138 @@
+html { 
+  font-family: 'Helvetica Neue', sans-serif; 
+  
+}
+
+.card-body ul, section ul { 
+  list-style: disc inside; 
+  margin-top: .5rem; 
+}
+
+ul li { 
+  margin-bottom: .25rem; 
+}
+
+header .lead { 
+  max-width: 700px; 
+  margin: 0 auto; 
+}
+
+@media(max-width:992px){
+  header .display-4 { font-size:2.5rem; }
+  .vam-card{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-around;
+}
+}
+
+#banner{
+  background-image: url(assets/Banner.png);
+  background-size: cover;
+
+}
+#vam{
+  display: flex;
+  justify-content: space-around;
+}
+.vam-card{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.vam p{
+  text-align: justify;
+}
+.vam img{
+  width: 50%;
+}
+.sec-2 img{
+  width: 25%;
+}
+.footer-link {
+    color: #f8f9fa;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+    color: #0d6efd;
+}
+
+.social-icon {
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+    display: inline-block;
+    margin: 0 8px;
+    transition: all 0.3s ease;
+}
+
+.social-icon:hover {
+    transform: translateY(-3px);
+    color: #fff;
+}
+/* Container utama */
+
+.card-title a {
+    color: #0d6efd;
+    text-decoration: none;
+}
+
+.card-title a:hover {
+    text-decoration: underline;
+}
+
+.service-card {
+            transition: all 0.3s ease;
+            border: none;
+            border-radius: 15px;
+            overflow: hidden;
+            background: linear-gradient(145deg, #ffffff, #f3f3f3);
+            box-shadow: 5px 5px 15px #d9d9d9, -5px -5px 15px #ffffff;
+        }
+        
+        .service-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 8px 8px 20px #d1d1d1, -8px -8px 20px #ffffff;
+        }
+        
+        .icon-wrapper {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto;
+            background: linear-gradient(135deg, #6366f1, #8b5cf6);
+        }
+        
+        .custom-badge {
+            background: linear-gradient(135deg, #6366f1, #8b5cf6);
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 500;
+        }
+        
+        .service-title {
+            color: #2d3748;
+            font-weight: 600;
+        }
+        
+        .service-text {
+            color: #718096;
+            font-size: 0.95rem;
+        }
+
+        body {
+            background-color: #f8f9fa;
+            min-height: 100vh;
+            padding: 40px 0;
+}
