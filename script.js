@@ -51,3 +51,11 @@ const script = document.createElement('script');
 script.src = "https://infojtcargo.blogspot.com/feeds/posts/default?alt=json-in-script&callback=showPosts&max-results=6";
 document.body.appendChild(script);
 
+window.addEventListener('scroll', function () {
+    const waBtn = document.getElementById('waButton');
+    if (window.scrollY > 100) {
+      waBtn.classList.add('show');
+    } else {
+      waBtn.classList.remove('show');
+    }
+  });

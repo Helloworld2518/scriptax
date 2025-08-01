@@ -27,11 +27,7 @@ header .lead {
 }
 }
 
-#banner{
-  background-image: url(assets/Banner.png);
-  background-size: cover;
 
-}
 #vam{
   display: flex;
   justify-content: space-around;
@@ -187,4 +183,34 @@ header .lead {
 
 .accordion-body {
     padding: 0 0 20px 0;
+}
+
+.wa-float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 20px;
+  right: 20px;
+  color: #fff;
+  border-radius: 50%;
+  text-align: center;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  z-index: 9999;
+  display: fixed;
+  align-items: center;
+  justify-content: center;
+  opacity: 1;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+  pointer-events: none; /* mencegah klik sebelum muncul */
+}
+
+.wa-float.show {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+
+.wa-icon {
+  width: 100%;
 }
