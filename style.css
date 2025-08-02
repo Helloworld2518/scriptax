@@ -1,6 +1,5 @@
 html { 
   font-family: 'Helvetica Neue', sans-serif; 
-  
 }
 
 .card-body ul, section ul { 
@@ -213,4 +212,8 @@ header .lead {
 
 .wa-icon {
   width: 100%;
+}
+#body-clr{
+  background-image: url("https://static.vecteezy.com/system/resources/previews/034/043/139/non_2x/elegant-background-for-a-classy-promotional-event-free-vector.jpg");
+
 }
